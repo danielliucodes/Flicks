@@ -19,6 +19,7 @@ Optional features not completed as focus is on completing all required assignmen
 Walkthrough of all user stories:
 
 ![Video Walkthrough](VideoWalkthrough.gif)
+
 Walkthrough starts with Wifi turned off to display network error. Then Wifi is turned on to show loading and traversal of app.
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
