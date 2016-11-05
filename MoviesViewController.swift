@@ -136,12 +136,9 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
             delegateQueue: OperationQueue.main
         )
         
-        CircularSpinner.show("Loading...", animated: true, type: .indeterminate)
-        
         let task : URLSessionDataTask = session.dataTask(with: request,completionHandler: { (data, response, error) in
             refreshControl.endRefreshing()
-            CircularSpinner.hide()
-            
+        
             if let data = data {
                 self.errorView.isHidden = true
                 
