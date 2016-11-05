@@ -18,6 +18,6 @@ Optional features not completed as focus is on completing all required assignmen
 
 Walkthrough of all user stories:
 
-![Video Walkthrough](Video_Walkthrough.gif)
+![Video Walkthrough](VideoWalkthrough.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
